@@ -1,0 +1,203 @@
+@import "bulma";
+* {
+  margin:0px;
+  border:0px;
+  padding:0px;
+}
+.container{
+      max-width: 1445px;
+      width: 100%;
+      margin:0%;
+    }
+body{
+  font-size: 18px;
+  position:relative;
+}
+h1{
+  text-align: center;
+  font-size: 175%;
+  color: #4A4444;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding: 3% 0%;
+}
+h3{
+  text-align: center;
+  color: #4A4444;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.top{
+  position: absolute;
+  top: 15%;
+  color: red;
+  left: 40%;
+}
+.black{
+  border: solid ;
+  position: absolute;
+  color: white;
+  left: 35%;
+  top: 15%;
+  font-size: 85px;
+}
+.black:hover{
+border-color:red;
+border:solid red;
+
+}
+.black5{
+  position: absolute;
+  top: 65%;
+  left: 39%;
+  color:white;
+
+}
+.black6{
+position: absolute;
+top: 18%;
+left: 36%;
+color: white;
+}
+.title{
+  height: 50px;
+
+}
+.tittle-wrapper{
+  position: absolute;
+  height: 300px;
+  width: 100%;
+  top: 11%;
+  -moz-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5), 0px 2px 3px rgba(0, 0, 0, 0.5);
+-webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5), 0px 2px 3px rgba(0, 0, 0, 0.5);
+box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5), 0px 2px 3px rgba(0, 0, 0, 0.5);
+-webkit-background-origin: border-box;
+ -moz-background-origin: border;
+ background-origin: border-box;
+
+ background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.15), rgba(0, 0, 0, 0.25)), -webkit-linear-gradient(left top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0));
+ background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.15), rgba(0, 0, 0, 0.25)), linear-gradient(to right)
+}
+p {
+  padding: 2%;
+  color: #4A4444;
+  text-align: justify;
+}
+img{
+  max-width: 100%;
+  width: 100%;
+  padding-top: 8px;
+}
+#banner-wrapper{
+  max-width: 1280px;
+  margin: 0% auto;
+}
+.one-half{
+  width: 44%;
+  float: left;
+  margin: 2% 0% 3% 4%;
+  text-align: center;
+}
+.one-third{
+  width:28%;
+  float: left;
+  margin: 2% 0% 3% 4%;
+  text-align: center;
+}
+.left-col{
+  width: 60%;
+  float:left;
+  margin: 4% 0% 4% 4%;
+}
+.Sidebar{
+  width: 26%;
+  float: right;
+  margin: 4%;
+  height: 0px;
+}
+// --starting parallax--//
+.parallax-1{
+  // background: url(/images/cam.jpg)no-repeat 50% 100%;
+  text-align: center;
+  height: 600px;
+}
+parallax-inner{
+  padding-top: 90px;
+  padding-bottom: 1300px;
+}
+// .parallax-2{
+//    background: url(/images/bulb1.jpg)no-repeat fixed 100%;
+//    height: 385px;
+// }
+// .parallax-3{
+//   background: url(/images/bulb.jpg)no-repeat fixed 100%;
+//   text-align: center;
+//   height: 500px;
+// }
+.black3{
+  position: absolute;
+  top: 55%;
+  left: 44%;
+}
+.black4{
+position: absolute;
+left: 35%;
+font-size: 85px;
+color:black;
+border: solid 1px;
+top: 37%;
+}
+.black4:hover{
+color: orange;
+}
+.box1{
+border: solid 7px white;
+width: 40%;
+position: absolute;
+top: 65%;
+margin-left: 2%;
+height: 200px;
+}
+// table{
+//   width: 87%;
+// }
+.big{
+  font-family: 'Great Vibes', cursive;
+  position: absolute;
+  top: 15%;
+  right: 23%;
+  font-size: 60px;
+  color: white;
+  right: 42%;
+  letter-spacing: 5px;
+  border-bottom: solid 1px;
+  width: 57%;
+  border: solid;
+  text-shadow: 0px 4px 3px rgb(152, 156, 160), 0px 8px 13px rgb(0, 0, 0), 0px 18px 23px rgb(86, 86, 86);
+}
+// count downcss//
+.countdown-container{
+      position: absolute;
+      width: 48%;
+      top: 32%;
+      left: 20px;
+      color: white;
+      font-size: 41px;
+      font-family: 'Great Vibes', cursive;
+      margin-left: 65px;
+      padding: 20px;
+  }
+
+tr{
+  text-shadow: 0px 4px 3px rgb(152, 156, 160), 0px 8px 13px rgb(0, 0, 0), 0px 18px 23px rgb(86, 86, 86);
+}
+td{
+font-size: 30px;
+text-align: center;
+}
+#time{
+ text-align: center;
+}
+.a{
+    text-align: center;
+}
