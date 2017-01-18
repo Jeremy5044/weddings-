@@ -29,10 +29,17 @@ h = (h < 10) ? "0" + h : h;
 m = (m < 10) ? "0" + m : m;
 s = (s < 10) ? "0" + s : s;
 
+// return h;
+// return m;
+// return s;
+// console.log(h, "hours");
+// console.log(m, "minutes");
+// console.log(s, "seconds");
+console.log(h+":"+m+":"+s);
+
 setTimeout(countdown, 1000);
-console.log(s)
 }
-countdown()
+countdown();
 }
 
 

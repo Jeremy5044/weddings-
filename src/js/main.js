@@ -1,5 +1,7 @@
 import angular from 'angular';
 
+// import $ from 'jquery';
+
 import { routerConfig } from './routes';
 import { LayoutController } from './controllers/layout';
 import { AboutController } from './controllers/about';
@@ -12,3 +14,4 @@ angular
 .controller('LayoutController', LayoutController)
 .controller('AboutController', AboutController)
 .controller('HomeController', HomeController)
+;

@@ -1,8 +1,5 @@
 
 
-
-
-
 function LayoutController () {
   console.log("LAYOUT CONTROLLER IS ALIVE");
 
