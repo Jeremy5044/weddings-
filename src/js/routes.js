@@ -14,7 +14,12 @@ function routerConfig ($stateProvider, $urlRouterProvider){
     url: '/about',
     templateUrl: 'templates/about.tpl.html',
     controller: 'AboutController as about'
-  });
+  })
+  .state('root.art',{
+    url:'/vs',
+    templateUrl: 'templates/vs.tpl.html',
+    controller: 'ArtController as art'
+});
 
 $urlRouterProvider.otherwise('/');
 };
