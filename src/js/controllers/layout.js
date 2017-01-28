@@ -1,16 +1,21 @@
 
 
 function LayoutController () {
-  console.log("LAYOUT CONTROLLER IS ALIVE");
 
-  let vm = this;
+  $(function() {
+     $(".handle").on("click", function(){
+       $('nav ul').toggleClass("showing")
 
-  vm.message = 'Hello from LayoutController!';
-  vm.clickMe = clickMe;
+     });
+        });
+        $(function(){
+          $("showing").on("click", function(){
+            $("li").toggleClass("showing")
+          });
 
-  function clickMe () {
-    console.log("I got clicked");
-  }
+        });
+
+
 
 }
 

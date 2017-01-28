@@ -16,8 +16,8 @@ function routerConfig ($stateProvider, $urlRouterProvider){
     controller: 'AboutController as about'
   })
   .state('root.art',{
-    url:'/vs',
-    templateUrl: 'templates/vs.tpl.html',
+    url:'/art',
+    templateUrl: 'templates/art.tpl.html',
     controller: 'ArtController as art'
 });
 

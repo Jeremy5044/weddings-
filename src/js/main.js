@@ -6,7 +6,7 @@ import { routerConfig } from './routes';
 import { LayoutController } from './controllers/layout';
 import { AboutController } from './controllers/about';
 import { HomeController } from './controllers/home';
-import { ArtController } from './controllers/groom'
+import { ArtController } from './controllers/art'
 // import { VinueController } from './controllers/vinu'
 import  'angular-ui-router';
 
